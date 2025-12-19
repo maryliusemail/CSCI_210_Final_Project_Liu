@@ -1,8 +1,5 @@
 # Rock–Paper–Scissors Tournament (CSCI 210 Final Project)
 
-This Flask web application runs a multi-player Rock–Paper–Scissors tournament with a
-persistent leaderboard stored in a Python dictionary.
-
 Each game consists of 10 rounds, and the winner of a completed game is automatically
 retained as Player 1 for the next game.
 
@@ -84,10 +81,3 @@ alphabetically by player name and numerically by total score.
 
 ---
 
-## Summary
-
-- Central data store: Python dictionary
-- Game length: 10 rounds per match
-- Winner retention: Automatic
-- REST API used for all game actions
-- Leaderboard sorted using Python’s built-in sorting
